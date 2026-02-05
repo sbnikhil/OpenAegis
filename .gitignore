@@ -25,6 +25,14 @@ htmlcov/
 .env
 .env.local
 *.env
+.env.production
+.env.development
+
+# API Keys & Credentials
+*accessKeys*.csv
+*credentials*.json
+*secret*.yaml
+*secret*.json
 
 # AWS
 .aws/
@@ -61,3 +69,8 @@ temp/
 # OpenAegis specific
 workspace/
 .openaegis/
+
+# Test/demo files (optional - remove if you want to keep them)
+test_computer_use.py
+test_computer_use_simple.py
+test_risk_demo.py

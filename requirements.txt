@@ -23,6 +23,7 @@ torch==2.2.0
 nemoguardrails==0.9.1
 pydantic==2.6.1
 python-dotenv==1.0.1
+clamd==1.0.2
 
 # Utilities
 watchdog==4.0.0
@@ -34,6 +35,10 @@ structlog==24.1.0
 
 # Docker SDK
 docker==7.0.0
+
+# Computer Use / Desktop Automation
+pyautogui==0.9.54
+mss==9.0.1
 
 # Observability
 prometheus-client==0.20.0
